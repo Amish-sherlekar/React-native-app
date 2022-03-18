@@ -1,7 +1,7 @@
 import { Text, View } from "react-native";
 import React, { Component } from "react";
 
-export default class App extends Component {
+export class App extends Component {
   render() {
     return (
       <View>
@@ -10,3 +10,5 @@ export default class App extends Component {
     );
   }
 }
+
+export default App;
